@@ -1,7 +1,6 @@
 #if 0
-cat $0 && gcc $0 -o b && ./b; rm ./b; exit 0
+cat $0 && gcc $0 -o $$ && ./$$; rm $$; exit 0
 #endif
-#include <stdint.h>
 int main() {
     const char* s = "helo wrd";
     int r, i, j, k, n = 0, p[8];
